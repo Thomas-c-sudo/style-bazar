@@ -5,11 +5,28 @@ body {
   }
 
   header {
-    background: #222;
-    color: white;
-    padding: 15px;
-    text-align: center;
-  }
+  background: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center; 
+  text-align: center;
+ 
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
 
   .container {
     padding: 20px;
