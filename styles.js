@@ -5,42 +5,21 @@ body {
   }
 
   header {
-    
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
   }
 
   .container {
     padding: 20px;
   }
-header {
-  background: #222;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;     /* horizontal center */
-  justify-content: center; /* vertical center */
-  text-align: center;
- 
-}
-
-.logo-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo {
-  height: 50px;
-  width: auto;
-}
 
   .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-
 
   /* BUG 2: class name mismatch (card vs product-card) */
   .card {
